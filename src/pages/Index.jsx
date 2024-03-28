@@ -26,7 +26,7 @@ const Index = () => {
       <form onSubmit={handleSubmit}>
         <Flex>
           <Input value={newTodo} onChange={(e) => setNewTodo(e.target.value)} placeholder="Enter a new todo" mr={4} />
-          <Button type="submit" colorScheme="blue" leftIcon={<FaPlus />}>
+          <Button type="submit" colorScheme="green" leftIcon={<FaPlus />}>
             Add
           </Button>
         </Flex>
